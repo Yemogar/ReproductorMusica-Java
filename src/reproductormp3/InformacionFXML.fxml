@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="241.0" prefWidth="267.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="reproductormp3.InformacionFXMLController">
+   <children>
+      <Text layoutX="61.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reproductor de Música" underline="true">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="61.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GitHub :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="61.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email  :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="61.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Versión : 1.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="21.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/music-box-outline.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="21.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/gmail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="21.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../media/github-box.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="emailHiper" layoutX="109.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="yemogar@gmail.com">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="githubHiper" layoutX="116.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@Yemogar">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

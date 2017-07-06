@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ReproductorMP3.jnlp">
+  <information>
+    <title>ReproductorMP3</title>
+    <vendor>Yeray</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ReproductorMP3.jar" size="850426" download="eager" />
+    <jar href="lib\basicplayer3.0.jar" size="11093" download="eager" />
+    <jar href="lib\commons-logging-api.jar" size="26202" download="eager" />
+    <jar href="lib\jaudiotagger-2.2.3.jar" size="941715" download="eager" />
+    <jar href="lib\jl1.0.jar" size="105446" download="eager" />
+    <jar href="lib\mp3spi1.9.4.jar" size="24538" download="eager" />
+    <jar href="lib\tritonus_share.jar" size="102723" download="eager" />
+    <jar href="lib\vorbisspi1.0.2.jar" size="13776" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ReproductorMP3" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="reproductormp3.ReproductorMP3"  name="ReproductorMP3" />
+  <update check="always"/>
+</jnlp>
